@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '87b5800c614e4c2006d26e0748dbbb84',
 
-  PROVINCE: '内蒙古',
-  CITY: '化德',
+  PROVINCE: '内蒙古自治区',
+  CITY: '乌兰察布',
 
   USERS: [
     {
@@ -29,7 +29,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2004', date: '01-11',
+          type: '*生日', name: '宝贝', year: '2003', date: '12-20',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
